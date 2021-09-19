@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqWithLambda.Tests;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
+            ITest test = new TestSelect();
+            test.Test();
+
+            Console.ReadLine();
         }
     }
 }
