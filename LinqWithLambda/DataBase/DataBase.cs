@@ -35,16 +35,16 @@ namespace LinqWithLambda.DataBase
 
             for (int index = 0; index <= 1000; index++)
             {
-                var customer = new Order
-                {
-                    Id = index,
-                   // if (customerId > 50) customerId = 0;
-                    CustomerId = (customerId > 50 ? customerId = 0 : customerId),
-                    CreateDate = DateTime.Now,
-                    TotalValue = 10 * index
-                };
+                var order = new Order();
+                order.Id = index;
 
-                orders.Add(customer);
+                if (customerId > 50) customerId = 0;
+
+                order.CustomerId = customerId;
+                order.CreateDate = DateTime.Now;
+                order.TotalValue = 10 * index;
+
+                orders.Add(order);
             }
 
             return orders;

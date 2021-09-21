@@ -11,7 +11,7 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            ITest test = new TestSelect();
+            ITest test = new TestOrderBy();
             test.Test();
 
             Console.ReadLine();
