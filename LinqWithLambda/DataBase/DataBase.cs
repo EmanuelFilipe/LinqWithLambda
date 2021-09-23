@@ -45,6 +45,7 @@ namespace LinqWithLambda.DataBase
                 order.TotalValue = 10 * index;
 
                 orders.Add(order);
+                customerId++;
             }
 
             return orders;

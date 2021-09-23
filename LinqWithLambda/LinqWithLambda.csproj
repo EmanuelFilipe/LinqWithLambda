@@ -49,11 +49,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\ITest.cs" />
+    <Compile Include="Tests\TestDistinct.cs" />
     <Compile Include="Tests\TestAllCustomers.cs" />
+    <Compile Include="Tests\TestAll.cs" />
+    <Compile Include="Tests\TestContains.cs" />
     <Compile Include="Tests\TestJoin.cs" />
     <Compile Include="Tests\TestOrderBy.cs" />
     <Compile Include="Tests\TestSelectMany.cs" />
     <Compile Include="Tests\TestSkip.cs" />
+    <Compile Include="Tests\TestAny.cs" />
+    <Compile Include="Tests\TestWhere.cs" />
     <Compile Include="Tests\TestTake.cs" />
     <Compile Include="Tests\TestLast.cs" />
     <Compile Include="Tests\TestSingle.cs" />
